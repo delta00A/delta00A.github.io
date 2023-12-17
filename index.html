@@ -1,4 +1,189 @@
-<center>
-  <h1>bye
-  </h1>
-</center>
+<html lang="en" native-dark-active=""><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style lang="en" type="text/css" id="dark-mode-custom-style"></style><style lang="en" type="text/css" id="dark-mode-native-style">:root, ::after, ::before, ::backdrop {
+  --native-dark-accent-color: #a9a9a9;
+  --native-dark-bg-color: #292929;
+  --native-dark-bg-image-color: rgba(0, 0, 0, 0.10);
+  --native-dark-bg-image-filter: brightness(50%) contrast(200%);
+  --native-dark-border-color: #555555;
+  --native-dark-box-shadow: 0 0 0 1px rgb(255 255 255 / 10%);
+  --native-dark-cite-color: #92de92;
+  --native-dark-fill-color: #7d7d7d;
+  --native-dark-font-color: #dcdcdc;
+  --native-dark-link-color: #8db2e5;
+  --native-dark-opacity: 0.85;
+  --native-dark-text-shadow: none;
+  --native-dark-transparent-color: transparent;
+  --native-dark-visited-link-color: #c76ed7
+}
+
+:root {
+  color-scheme: dark;
+  accent-color: var(--native-dark-accent-color);
+}
+
+html a:visited, 
+html a:visited > * {
+  color: var(--native-dark-visited-link-color) !important;
+}
+
+a[ping]:link,
+a[ping]:link > *,
+:link:not(cite) {
+  color: var(--native-dark-link-color) !important;
+}
+
+html cite,
+html cite a:link,
+html cite a:visited {
+  color: var(--native-dark-cite-color) !important;
+}
+
+img,
+image,
+figure:empty {
+  opacity: var(--native-dark-opacity) !important;
+}
+        </style><style lang="en" type="text/css" id="dark-mode-native-sheet"></style><head>
+      
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Dustin's Stuff</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" class="native-dark-class-original">
+      <style class="native-dark-class-modified">
+          body {
+              font-family: 'Comic Sans MS', cursive;
+              margin: 0;
+              padding: 0;
+              color: #000; /* Black text */
+              overflow-x: hidden; /* Hide horizontal scrollbar */
+              position: relative; /* Relative positioning for cat gif placeholder */
+              background: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia.giphy.com%2Fmedia%2FNcK0Arww9YWg8%2Fgiphy.gif&f=1&nofb=1&ipt=eff2a47fe53dce9279f9018e&ipo=images') center fixed;
+              background-size: cover;
+          }
+
+          header {
+              background-color: #66ccff; /* Light Blue header */
+              text-align: center;
+              padding: 20px;
+              border-bottom: 2px solid #fff; /* White border */
+          }
+
+          section {
+              max-width: 800px;
+              margin: auto;
+              padding: 20px;
+              background: #fff; /* White background */
+              box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+              margin-top: 20px;
+              border-radius: 8px;
+              animation: fadeInUp 1s ease; /* Animate.css fadeInUp animation */
+          }
+
+          h2 {
+              color: #ff6699; /* Pink heading */
+          }
+
+          h1 {
+              color: #000; /* Black */
+          }
+
+          a {
+              color: #0066cc; /* Blue link color */
+              text-decoration: none;
+              transition: color 0.3s ease;
+          }
+
+          a:hover {
+              color: #003366; /* Darker Blue on hover */
+          }
+
+          footer {
+              text-align: center;
+              margin-top: 20px;
+              padding: 10px;
+              background-color: #66ccff; /* Light Blue footer */
+              color: #fff; /* White text */
+              animation: fadeIn 1s ease; /* Animate.css fadeIn animation */
+              border-top: 2px solid #fff; /* White border */
+          }
+
+          .skills,
+          .portfolio {
+              margin-top: 40px;
+              background: #fff; /* White background */
+              padding: 20px;
+              box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+              border-radius: 8px;
+          }
+
+          ul {
+              list-style: none;
+              padding: 0;
+          }
+
+          li {
+              margin-bottom: 10px;
+          }
+
+          /* Placeholder for cat GIF */
+          .cat-gif {
+              position: absolute;
+              bottom: 10px;
+              right: 10px;
+              max-width: 200px;
+              max-height: 200px;
+              z-index: 100;
+          }
+      </style>
+  </head>
+
+  <body>
+
+      <header>
+          <h1>dustins stuff</h1>
+      </header>
+
+      <section class="animate__animated animate__fadeInUp">
+          <h2>About Me</h2>
+          <p>Hello, I'm Dustin! I enjoy programming as one of my hobbies. Whether it's solving problems, building applications, or exploring new technologies.</p>
+      </section>
+
+      <section class="animate__animated animate__fadeInUp skills">
+          <h2>Skills</h2>
+          <ul>
+              <li>Programming Languages: HTML, CSS, JavaScript, Python, Lua, Assembly</li>
+              <li>Web Development: React, Node.js, Express</li>
+              <li>Database: MongoDB, SQLite</li>
+              <li>Version Control: Git</li>
+          </ul>
+      </section>
+
+      <section class="animate__animated animate__fadeInUp portfolio">
+          <h2>Portfolio</h2>
+          <p>Check out some of my projects:</p>
+          <ul>
+              <li><a href="https://stylize.skullware.repl.co/">Stylize Library</a></li>
+              <li><a href="https://replit.com/@skullware/U-Language-Nix?v=1">U Language</a></li>
+              <li><a href="https://replit.com/@skullware/ButlerJS?v=1">Butler.JS</a></li>
+          </ul>
+      </section>
+
+      <section class="animate__animated animate__fadeInUp">
+          <h2>Contact Information</h2>
+          <p>Email: <a href="mailto:red_crocs12@protonmail.com">red_crocs12@protonmail.com</a></p>
+      </section>
+
+      
+    <section class="animate__animated animate__fadeInUp">
+      <h2>black hat section (for black hat hires)</h2>
+      <iframe src="https://breachforums.is/User-delta000" height="509" width="100%"></iframe>
+      <!-- Container for cat GIFs -->
+      <div class="cat-gif-container"></div>
+    </section>
+
+    <footer class="animate__animated animate__fadeIn">
+        <p>Thanks for visiting!</p>
+    </footer>
+  
+
+  
+</body></html>
